@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+#product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 37px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    width: 333px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 60%;
+    height: auto;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 5px;
+    padding: 10px;
+
+}
